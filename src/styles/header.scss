@@ -1,0 +1,24 @@
+.navbar {
+  padding-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+.menu__item {
+  list-style: none;
+}
+.menu__item-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+.menu__second .menu__item-link {
+  color: $secondaryColor;
+}
