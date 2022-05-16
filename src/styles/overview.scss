@@ -2,6 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width: $breakpoint480) {
+    flex-direction: column-reverse;
+  }
 }
 .overview__text {
 }
@@ -12,6 +15,9 @@
   line-height: 140%;
   text-transform: uppercase;
   margin-bottom: 45px;
+  @media screen and (max-width: $bpreakpoint992) {
+    font-size: 20px;
+  }
 }
 .overview__description {
   display: flex;
@@ -21,11 +27,17 @@
     font-size: 18px;
     line-height: 179.69%;
     color: $primaryColor;
+    @media screen and (max-width: $bpreakpoint992) {
+      font-size: 18px;
+    }
   }
   p {
     font-weight: 400;
     font-size: 18px;
     line-height: 179.69%;
+    @media screen and (max-width: $bpreakpoint992) {
+      font-size: 16px;
+    }
   }
   .usa {
     font-weight: 100;
@@ -40,4 +52,16 @@
   flex-direction: column;
   gap: 218px;
   max-width: 490px;
+  @media screen and (max-width: $bpreakpoint992) {
+    max-width: 400px;
+    gap: 100px;
+  }
+  @media screen and (max-width: $bpreakpoint992) {
+    max-width: 340px;
+  }
+}
+.falcon {
+  img {
+    max-width: 100%;
+  }
 }

@@ -1,5 +1,8 @@
 .hero {
   margin-top: 122px;
+  @media screen and (max-width: $bpreakpoint992) {
+    margin-top: 50px;
+  }
 }
 
 .hero__tittle {
@@ -15,6 +18,10 @@
   justify-content: center;
   margin-top: 26px;
   margin-bottom: 26px;
+  @media screen and (max-width: $bpreakpoint992) {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
   p {
     max-width: 268px;
     font-weight: 300;
