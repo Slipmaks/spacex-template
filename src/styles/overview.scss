@@ -2,12 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @media screen and (max-width: $breakpoint480) {
+  @media screen and (max-width: $breakpoint768) {
     flex-direction: column-reverse;
   }
 }
-.overview__text {
-}
+
 .overview__tittle {
   max-width: 177px;
   font-weight: 700;
@@ -15,7 +14,7 @@
   line-height: 140%;
   text-transform: uppercase;
   margin-bottom: 45px;
-  @media screen and (max-width: $bpreakpoint992) {
+  @media screen and (max-width: $breakpoint992) {
     font-size: 20px;
   }
 }
@@ -27,7 +26,7 @@
     font-size: 18px;
     line-height: 179.69%;
     color: $primaryColor;
-    @media screen and (max-width: $bpreakpoint992) {
+    @media screen and (max-width: $breakpoint992) {
       font-size: 18px;
     }
   }
@@ -35,7 +34,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 179.69%;
-    @media screen and (max-width: $bpreakpoint992) {
+    @media screen and (max-width: $breakpoint992) {
       font-size: 16px;
     }
   }
@@ -52,12 +51,12 @@
   flex-direction: column;
   gap: 218px;
   max-width: 490px;
-  @media screen and (max-width: $bpreakpoint992) {
+  @media screen and (max-width: $breakpoint992) {
     max-width: 400px;
     gap: 100px;
   }
-  @media screen and (max-width: $bpreakpoint992) {
-    max-width: 340px;
+  @media screen and (max-width: $breakpoint768) {
+    max-width: 100%;
   }
 }
 .falcon {
