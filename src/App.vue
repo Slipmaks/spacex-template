@@ -4,6 +4,9 @@
   <Overview />
   <Footer />
 </template>
+<style lang="scss">
+@import "./styles/app.scss";
+</style>
 
 <script setup>
 import Header from "./components/Header.vue";
